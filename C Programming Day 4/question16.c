@@ -4,11 +4,13 @@ int main() {
     int roll;
     printf("Enter roll number: ");
      scanf("%d", &roll);
-    if (roll == 100)
+    if (roll == 100){
         printf("100 is present\n");
-        return 1;
-    if (roll != 100)
-        printf("100 is not presented.\n");
+    }
 
-    return 0;
+    
+        else{
+            printf("100 is not presented.\n");
+         }   
+return 0;
 }
